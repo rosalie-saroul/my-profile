@@ -1,0 +1,100 @@
+/* Colors and fonts */
+
+body {
+	background-color: #ffe5ca;
+	color: black;
+	font-family: Avenir;
+	font-weight: 50;
+	font-size: 50;
+}
+
+h1 {
+	color: #CD1818;
+	font-size: 36px;
+}
+
+h2 {
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+h3 {
+	color: black;
+	font-size: 16px;
+}
+
+a {
+	font-family: Avenir;
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px; 
+	}
+}
+
+@media (max-width: 500px) {
+.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: #FFF3E2;
+	padding: 40px;
+	box-shadow:0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 15px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-red {
+	background-color: #CD1818;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 15px;
+}
+
+.btn-red:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #CD1818 ;
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
